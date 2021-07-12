@@ -3,8 +3,7 @@ let apiKey = '447c71b75be8e0058c8994c3936021bf'
 
 // Grab the news container
 let newsAccordion = document.getElementById('newsAccordion');
-
-// Create an ajax get request
+// Create an ajax get r equest
 const xhr = new XMLHttpRequest();
 xhr.open('GET', `https://gnews.io/api/v4/top-headlines?token=${apiKey}&lang=en`, true);
 
